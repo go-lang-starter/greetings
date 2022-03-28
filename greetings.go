@@ -39,7 +39,7 @@ func randomFormat() string {
 	formats := []string{
 		"Hi %v Welcome!",
 		"Greet to %v",
-		"Nict to meet %v",
+		"Nice to meet %v",
 	}
 
 	return formats[rand.Intn(len(formats))]
